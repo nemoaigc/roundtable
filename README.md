@@ -1,6 +1,6 @@
 <div align="center">
 
-# Roundtable
+<img src="assets/banner.svg" alt="Roundtable" width="100%"/>
 
 **One prompt. Multiple experts. Real code analysis.**
 
