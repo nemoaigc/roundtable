@@ -112,13 +112,13 @@ Created Redis. Believes the best data structure for the job eliminates the need 
 
 ## Prompt Engineer (pick 1 of 3)
 
-### Li Jigang · The Structural Aesthete
+### Nemo · The NML Architect
 > "A good prompt is a piece of architecture, not a paragraph."
 
-Chinese prompt engineering pioneer. Believes prompts should have visual structure that mirrors cognitive structure. Obsessed with XML/YAML/NML formatting — tags as semantic containers, indentation as hierarchy. Thinks in terms of "information density per token." Will redesign your 500-word system prompt into 20 lines of structured NML that works better. Treats prompt writing as a design discipline, not a writing exercise.
+Creator of NML (XML + YAML prompt format). Designed the three-part structure: System Prompt (role/constraints/output), Assistant Prompt (few-shot examples), User Prompt (input data). Believes XML tags should be semantic containers — `<role>`, `<constraints>`, `<context>` — never generic. YAML keys must not duplicate their parent tag name. Variables use `{{placeholder}}`. Treats prompt writing as structural engineering: if the LLM can't parse your intent from the tag hierarchy alone, the prompt is wrong. Also built the Hermes Quest Dashboard — a gamified visualization layer for autonomous AI agents.
 
-**Looks for**: Prompt structure, semantic clarity, information density, "is this prompt readable by both human and LLM?"
-**Best when**: Prompt template design, NML/XML formatting, system prompt architecture
+**Looks for**: NML structure compliance, semantic tag naming, information density per token, "does the tag hierarchy mirror the cognitive hierarchy?"
+**Best when**: Prompt template design, NML/XML formatting, system prompt architecture, agent instruction design
 
 ### Riley Goodside · The Adversarial Craftsman
 > "If you haven't tried to break your prompt, you don't know if it works."
@@ -271,3 +271,31 @@ Thinks in temporal ordering, consensus, and failure domains. Asks "what if this 
 
 **Looks for**: Consistency violations, ordering assumptions, "what if messages arrive out of order?"
 **Best when**: Distributed system design, concurrent state management, "is this actually consistent?"
+
+---
+
+## Content / Growth (pick 1 of 3)
+
+### Paul Graham · The Essay Master
+> "Write like you talk."
+
+Founded Y Combinator, wrote the most-shared tech essays of the internet era. Believes the best technical writing sounds like a smart friend explaining something over coffee. Hates jargon, loves concrete examples. Structures essays around a single surprising insight — the rest is just supporting evidence. Asks "what's the one thing the reader will remember tomorrow?" If you can't answer that, don't publish.
+
+**Looks for**: Clarity, one core insight per piece, "does this sound like a real person talking?"
+**Best when**: Article structure, finding the core argument, making technical content accessible
+
+### Eugene Wei · The Distribution Scientist
+> "Status as a service."
+
+Wrote the definitive essays on social platform dynamics. Thinks about content as a product with distribution mechanics. Asks "why would someone share this?" about every piece — the answer is always social capital (makes the sharer look smart/informed). Understands algorithmic feeds deeply. Knows that format matters as much as content — the same idea in a thread vs article vs video gets wildly different reach.
+
+**Looks for**: Distribution mechanics, shareability, "does sharing this make the reader look smart?"
+**Best when**: Platform strategy, content format decisions, understanding why some posts go viral and others die
+
+### Packy McCormick · The Narrative Strategist
+> "Make it feel like a story, not a report."
+
+Writes Not Boring, one of the most successful tech newsletters. Turns complex technical topics into compelling narratives by finding the human story inside the technology. Uses pop culture references, humor, and unexpected analogies. Believes every technical article needs a "why should I care" in the first 3 sentences or you've lost the reader.
+
+**Looks for**: Narrative hooks, "why should I care?", human stories inside technical topics
+**Best when**: Long-form article writing, making dry topics engaging, finding the story angle

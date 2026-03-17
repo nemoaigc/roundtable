@@ -19,12 +19,13 @@ Read `references/personas.md` for full persona details. Here is the roster:
 | **Frontend Dev** | Dan Abramov (state/React) / Evan You (DX/build) | Frontend components, React, state management, build |
 | **Backend Dev** | DHH (pragmatic monolith) / Antirez (data structures) | API design, data modeling, backend architecture |
 | **AI Researcher** | Hinton (skeptic) / Karpathy (hands-on) / Fei-Fei Li (human-centered) | LLM prompts, ML pipelines, AI feedback loops |
-| **Prompt Engineer** | Li Jigang (structural aesthetics) / Riley Goodside (adversarial craft) / Simon Willison (pragmatic tooling) | Prompt design, NML/XML structure, LLM instruction clarity |
+| **Prompt Engineer** | Nemo (NML creator, structural architecture) / Riley Goodside (adversarial craft) / Simon Willison (pragmatic tooling) | Prompt design, NML/XML structure, LLM instruction clarity |
 | **Game Designer** | Kojima (moments) / Miyamoto (joy) / Miyazaki (challenge) | Games, gamification, progression systems |
 | **Security** | Schneier (threat models) / Mitnick (attacker mindset) | Auth, payments, user data, external APIs |
 | **UX Designer** | Don Norman (cognitive) / Dieter Rams (minimal) | User-facing products, dashboards |
 | **DevOps/SRE** | Ben Treynor (SRE) / Kelsey Hightower (simplify) | Deployment, infra, reliability |
 | **Architect** | Martin Fowler (refactoring) / Leslie Lamport (distributed) | Large refactors, new systems, concurrency |
+| **Content/Growth** | Paul Graham (essays) / Eugene Wei (distribution) / Packy McCormick (narrative) | Articles, X posts, content strategy, virality |
 
 ## Selection Rules
 
