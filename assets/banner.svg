@@ -87,7 +87,7 @@
   <rect x="100" y="162" width="600" height="1" fill="#8B5CF6" opacity="0.2"/>
 
   <!-- Tagline -->
-  <text x="400" y="188" font-family="'Georgia', serif" font-size="13" fill="#8B9CB8" text-anchor="middle" opacity="0.8">21 Experts  ·  9 Roles  ·  One Prompt</text>
+  <text x="400" y="188" font-family="'Georgia', serif" font-size="13" fill="#8B9CB8" text-anchor="middle" opacity="0.8">25 Experts  ·  11 Roles  ·  One Prompt</text>
 
   <!-- Sub-tagline -->
   <text x="400" y="210" font-family="'Georgia', serif" font-size="11" fill="#8B9CB8" text-anchor="middle" opacity="0.5">Multi-expert roundtable discussion skill for Claude Code</text>

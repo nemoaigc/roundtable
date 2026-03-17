@@ -16,6 +16,8 @@ Read `references/personas.md` for full persona details. Here is the roster:
 | **Product Manager** | Jobs (cut scope) / Butterfield (user empathy) / Bezos (customer obsession) | Almost always. Pick based on what the discussion needs. |
 | **Agent Engineer** | Swyx (contracts) / Andrew Ng (data flywheels) | Projects with agents, automation, LLM workflows |
 | **Code Reviewer** | Linus (brutal bugs) / Carmack (first-principles) | Whenever code has been changed |
+| **Frontend Dev** | Dan Abramov (state/React) / Evan You (DX/build) | Frontend components, React, state management, build |
+| **Backend Dev** | DHH (pragmatic monolith) / Antirez (data structures) | API design, data modeling, backend architecture |
 | **AI Researcher** | Hinton (skeptic) / Karpathy (hands-on) / Fei-Fei Li (human-centered) | LLM prompts, ML pipelines, AI feedback loops |
 | **Game Designer** | Kojima (moments) / Miyamoto (joy) / Miyazaki (challenge) | Games, gamification, progression systems |
 | **Security** | Schneier (threat models) / Mitnick (attacker mindset) | Auth, payments, user data, external APIs |

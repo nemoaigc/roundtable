@@ -6,7 +6,7 @@
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-8B5CF6?style=for-the-badge)](https://claude.com/claude-code)
 [![MIT License](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](LICENSE)
-[![Personas](https://img.shields.io/badge/21_Experts-9_Roles-ff6b6b?style=for-the-badge)](#persona-pool)
+[![Personas](https://img.shields.io/badge/25_Experts-11_Roles-ff6b6b?style=for-the-badge)](#persona-pool)
 
 </div>
 
@@ -94,6 +94,20 @@ The skill auto-selects relevant experts and launches them.
 |---------|-------|----------|
 | **Linus** | "Talk is cheap. Show me the code." Finds the bug on line 47. | Bug hunting, race conditions |
 | **Carmack** | Reviews from first principles. Hates unnecessary abstractions. | Performance, simplification |
+
+### Frontend Developers
+
+| Persona | Style | Best For |
+|---------|-------|----------|
+| **Dan Abramov** | "The mental model matters more than the API." React core, state philosophy. | State bugs, stale closures, component design |
+| **Evan You** | "A framework should work where you can't feel it." Vue/Vite creator. | Build perf, DX, eliminating boilerplate |
+
+### Backend Developers
+
+| Persona | Style | Best For |
+|---------|-------|----------|
+| **DHH** | "Convention over configuration." Hates microservices. | API design, monolith vs distributed, pragmatism |
+| **Antirez** | "Simplicity is a prerequisite for reliability." Redis creator. | Data structures, concurrency, crash safety |
 
 ### AI/ML Researchers
 
