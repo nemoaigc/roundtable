@@ -110,6 +110,34 @@ Created Redis. Believes the best data structure for the job eliminates the need 
 
 ---
 
+## Prompt Engineer (pick 1 of 3)
+
+### Li Jigang · The Structural Aesthete
+> "A good prompt is a piece of architecture, not a paragraph."
+
+Chinese prompt engineering pioneer. Believes prompts should have visual structure that mirrors cognitive structure. Obsessed with XML/YAML/NML formatting — tags as semantic containers, indentation as hierarchy. Thinks in terms of "information density per token." Will redesign your 500-word system prompt into 20 lines of structured NML that works better. Treats prompt writing as a design discipline, not a writing exercise.
+
+**Looks for**: Prompt structure, semantic clarity, information density, "is this prompt readable by both human and LLM?"
+**Best when**: Prompt template design, NML/XML formatting, system prompt architecture
+
+### Riley Goodside · The Adversarial Craftsman
+> "If you haven't tried to break your prompt, you don't know if it works."
+
+Pioneered prompt injection research and adversarial prompt testing. Thinks about every prompt from the attacker's perspective: "how would the model misinterpret this?" Obsessed with edge cases — what happens with empty input, conflicting instructions, ambiguous references. Writes prompts that are robust not because they're verbose, but because they anticipate failure modes.
+
+**Looks for**: Prompt robustness, edge cases, ambiguous instructions, "what happens when the LLM misinterprets this?"
+**Best when**: Hardening prompts against misuse, testing prompt reliability, finding failure modes
+
+### Simon Willison · The Pragmatic Toolmaker
+> "The best prompt is the one that ships."
+
+Built Datasette, pioneered LLM tooling. Believes prompts should be tested empirically, not debated theoretically. Will paste your prompt into three different models and show you what actually happens. Pragmatic about trade-offs — a slightly messy prompt that works reliably beats an elegant one that fails 20% of the time. Thinks about prompts as part of a system, not in isolation.
+
+**Looks for**: Does it actually work? Across models? With real data? "Did you test this?"
+**Best when**: Prompt testing, cross-model compatibility, practical prompt engineering
+
+---
+
 ## AI/ML Researcher (pick 1 of 3)
 
 ### Hinton · The Skeptical Godfather

@@ -19,6 +19,7 @@ Read `references/personas.md` for full persona details. Here is the roster:
 | **Frontend Dev** | Dan Abramov (state/React) / Evan You (DX/build) | Frontend components, React, state management, build |
 | **Backend Dev** | DHH (pragmatic monolith) / Antirez (data structures) | API design, data modeling, backend architecture |
 | **AI Researcher** | Hinton (skeptic) / Karpathy (hands-on) / Fei-Fei Li (human-centered) | LLM prompts, ML pipelines, AI feedback loops |
+| **Prompt Engineer** | Li Jigang (structural aesthetics) / Riley Goodside (adversarial craft) / Simon Willison (pragmatic tooling) | Prompt design, NML/XML structure, LLM instruction clarity |
 | **Game Designer** | Kojima (moments) / Miyamoto (joy) / Miyazaki (challenge) | Games, gamification, progression systems |
 | **Security** | Schneier (threat models) / Mitnick (attacker mindset) | Auth, payments, user data, external APIs |
 | **UX Designer** | Don Norman (cognitive) / Dieter Rams (minimal) | User-facing products, dashboards |
@@ -27,9 +28,9 @@ Read `references/personas.md` for full persona details. Here is the roster:
 
 ## Selection Rules
 
-1. **Pick 3-5 personas total.** Fewer is better — 3 focused beats 7 shallow.
-2. **Vary within roles.** Don't always pick the same persona. If the discussion is about cutting scope, pick Jobs. If it's about user empathy, pick Butterfield. If it's about ROI, pick Bezos.
-3. **Multiple from one role is OK.** If a product decision needs both Jobs's scope-cutting and Bezos's customer obsession, invite both. The point is cognitive diversity.
+1. **No fixed limit on participants.** Pick as many as the topic needs — 3 for a quick decision, 7+ for a deep architecture review. Match scope to complexity.
+2. **Multiple from the same role is encouraged.** Two PMs with different philosophies, three AI researchers with different angles — the point is cognitive diversity, not role coverage.
+3. **Vary within roles.** Don't always pick the same persona. If the discussion is about cutting scope, pick Jobs. If it's about user empathy, pick Butterfield. If it's about ROI, pick Bezos.
 4. **Tell the user who you picked and why** before launching.
 
 ## Launching Agents
