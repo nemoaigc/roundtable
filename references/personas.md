@@ -72,6 +72,8 @@ Reviews from first principles. Asks "why does this allocation happen here?" abou
 
 ## Frontend Developer (pick 1 of 2)
 
+**Auto-load:** When any frontend dev is selected, the agent prompt MUST include: "Before analyzing, load the `frontend-design` skill using the Skill tool for design standards." Also include these files: `src/store.ts`, `src/types.ts`, `src/websocket.ts`, and the specific panel being discussed.
+
 ### Dan Abramov · The State Philosopher
 > "The mental model matters more than the API."
 
