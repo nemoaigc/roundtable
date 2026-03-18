@@ -6,7 +6,7 @@
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-8B5CF6?style=for-the-badge)](https://claude.com/claude-code)
 [![MIT License](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](LICENSE)
-[![Personas](https://img.shields.io/badge/31_Experts-13_Roles-ff6b6b?style=for-the-badge)](#persona-pool)
+[![Personas](https://img.shields.io/badge/34_Experts-13_Roles-ff6b6b?style=for-the-badge)](#persona-pool)
 
 </div>
 
@@ -101,6 +101,7 @@ The skill auto-selects relevant experts and launches them.
 |---------|-------|----------|
 | **Dan Abramov** | "The mental model matters more than the API." React core, state philosophy. | State bugs, stale closures, component design |
 | **Evan You** | "A framework should work where you can't feel it." Vue/Vite creator. | Build perf, DX, eliminating boilerplate |
+| **Guillermo Rauch** | "If it doesn't deploy in one command, it's not done." Next.js/Vercel. | Deploy friction, framework selection, one-prompt-to-production |
 
 ### Backend Developers
 
@@ -146,6 +147,7 @@ The skill auto-selects relevant experts and launches them.
 |---------|-------|----------|
 | **Don Norman** | Father of UX. Affordances, signifiers, mental models. | Information architecture, confusion |
 | **Dieter Rams** | "Good design is as little design as possible." | Visual cleanup, removing clutter |
+| **Jony Ive** | "True simplicity is derived from so much more than just the absence of clutter." | Visual polish, premium feel, screenshot-worthy design |
 
 ### DevOps / SRE
 
@@ -168,6 +170,7 @@ The skill auto-selects relevant experts and launches them.
 | **Paul Graham** | "Write like you talk." One surprising insight per essay. | Article structure, core argument |
 | **Eugene Wei** | "Status as a service." Understands algorithmic feeds. | Distribution mechanics, virality |
 | **Packy McCormick** | "Make it feel like a story, not a report." Not Boring newsletter. | Narrative hooks, long-form engagement |
+| **Pieter Levels** | "Ship fast, measure, iterate." 12 startups in 12 months. | MVP launch, growth hacking, distribution channels |
 
 ### System Architects
 

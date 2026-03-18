@@ -16,16 +16,16 @@ Read `references/personas.md` for full persona details. Here is the roster:
 | **Product Manager** | Jobs (cut scope) / Butterfield (user empathy) / Bezos (customer obsession) | Almost always. Pick based on what the discussion needs. |
 | **Agent Engineer** | Swyx (contracts) / Andrew Ng (data flywheels) | Projects with agents, automation, LLM workflows |
 | **Code Reviewer** | Linus (brutal bugs) / Carmack (first-principles) | Whenever code has been changed |
-| **Frontend Dev** | Dan Abramov (state/React) / Evan You (DX/build) | Frontend components, React, state management, build |
+| **Frontend Dev** | Dan Abramov (state/React) / Evan You (DX/build) / Guillermo Rauch (ship-it/deploy) | Frontend components, React, state management, build, deployment |
 | **Backend Dev** | DHH (pragmatic monolith) / Antirez (data structures) | API design, data modeling, backend architecture |
 | **AI Researcher** | Hinton (skeptic) / Karpathy (hands-on) / Fei-Fei Li (human-centered) | LLM prompts, ML pipelines, AI feedback loops |
 | **Prompt Engineer** | Nemo (NML creator, structural architecture) / Riley Goodside (adversarial craft) / Simon Willison (pragmatic tooling) | Prompt design, NML/XML structure, LLM instruction clarity |
 | **Game Designer** | Kojima (moments) / Miyamoto (joy) / Miyazaki (challenge) | Games, gamification, progression systems |
 | **Security** | Schneier (threat models) / Mitnick (attacker mindset) | Auth, payments, user data, external APIs |
-| **UX Designer** | Don Norman (cognitive) / Dieter Rams (minimal) | User-facing products, dashboards |
+| **UX Designer** | Don Norman (cognitive) / Dieter Rams (minimal) / Jony Ive (sensory perfection) | User-facing products, dashboards, visual polish |
 | **DevOps/SRE** | Ben Treynor (SRE) / Kelsey Hightower (simplify) | Deployment, infra, reliability |
 | **Architect** | Martin Fowler (refactoring) / Leslie Lamport (distributed) | Large refactors, new systems, concurrency |
-| **Content/Growth** | Paul Graham (essays) / Eugene Wei (distribution) / Packy McCormick (narrative) | Articles, X posts, content strategy, virality |
+| **Content/Growth** | Paul Graham (essays) / Eugene Wei (distribution) / Packy McCormick (narrative) / Pieter Levels (shipping) | Articles, X posts, content strategy, virality, MVP launch |
 
 ## Selection Rules
 
