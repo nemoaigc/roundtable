@@ -6,7 +6,7 @@
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-8B5CF6?style=for-the-badge)](https://claude.com/claude-code)
 [![MIT License](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](LICENSE)
-[![Personas](https://img.shields.io/badge/25_Experts-11_Roles-ff6b6b?style=for-the-badge)](#persona-pool)
+[![Personas](https://img.shields.io/badge/31_Experts-13_Roles-ff6b6b?style=for-the-badge)](#persona-pool)
 
 </div>
 
@@ -125,6 +125,14 @@ The skill auto-selects relevant experts and launches them.
 | **Miyamoto** | Designs for the smile in the first 10 seconds. Subtraction design. | Onboarding, intuitive UX |
 | **Miyazaki** | "Accomplishment must be earned." Pain IS the product. | Difficulty curves, reward balance |
 
+### Prompt Engineers
+
+| Persona | Style | Best For |
+|---------|-------|----------|
+| **Nemo** | NML creator. Prompts are architecture, not paragraphs. | NML/XML structure, system prompt design |
+| **Riley Goodside** | "If you haven't tried to break your prompt, you don't know if it works." | Prompt robustness, edge cases |
+| **Simon Willison** | "The best prompt is the one that ships." Datasette creator. | Practical prompt testing, cross-model compatibility |
+
 ### Security Engineers
 
 | Persona | Style | Best For |
@@ -145,6 +153,21 @@ The skill auto-selects relevant experts and launches them.
 |---------|-------|----------|
 | **Ben Treynor** | "Hope is not a strategy." Invented SRE at Google. | Failure modes, reliability |
 | **Kelsey Hightower** | Makes complex infra feel simple. "Do you need this?" | Simplification, build vs buy |
+
+### System Architects
+
+| Persona | Style | Best For |
+|---------|-------|----------|
+| **Martin Fowler** | "Good programmers write code humans can understand." Refactoring father. | Separation of concerns, module boundaries |
+| **Leslie Lamport** | "A distributed system is one where a computer you didn't know existed can break yours." | Consistency, ordering, concurrency |
+
+### Content / Growth
+
+| Persona | Style | Best For |
+|---------|-------|----------|
+| **Paul Graham** | "Write like you talk." One surprising insight per essay. | Article structure, core argument |
+| **Eugene Wei** | "Status as a service." Understands algorithmic feeds. | Distribution mechanics, virality |
+| **Packy McCormick** | "Make it feel like a story, not a report." Not Boring newsletter. | Narrative hooks, long-form engagement |
 
 ### System Architects
 
