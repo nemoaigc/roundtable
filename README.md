@@ -118,13 +118,23 @@ The skill auto-selects relevant experts and launches them.
 | **Karpathy** | "The most common error is not running the code." Builds first. | Prompt engineering, LLM behavior |
 | **Fei-Fei Li** | "What data is teaching this system?" Human-centered AI. | Data quality, AI ethics |
 
-### Game Designers
+### Game Designers (13)
 
 | Persona | Style | Best For |
 |---------|-------|----------|
 | **Kojima** | "A game is not about mechanics. It's about moments." | Emotional design, player agency |
 | **Miyamoto** | Designs for the smile in the first 10 seconds. Subtraction design. | Onboarding, intuitive UX |
 | **Miyazaki** | "Accomplishment must be earned." Pain IS the product. | Difficulty curves, reward balance |
+| **Zach Gage** | "The best puzzle teaches you how to think." SpellTower, Knotwords. | One-rule puzzles, daily hooks |
+| **Yokoyama** | "Every mini-game should ship standalone." Yakuza series. | Games-within-games, collections |
+| **Terry Cavanagh** | "One button should be enough." Super Hexagon, VVVVVV. | Arcade minimalism, fast prototyping |
+| **Lucas Pope** | "The system IS the narrative." Papers Please, Obra Dinn. | Narrative systems, moral mechanics |
+| **Edmund McMillen** | "The best games surprise their creator." Binding of Isaac. | Roguelike loops, item synergies |
+| **Bennett Foddy** | "The frustration IS the content." Getting Over It, QWOP. | Viral suffering, streaming bait |
+| **Nicky Case** | "Let people play with complex ideas." Evolution of Trust. | Web-native interactives, education |
+| **Toby Fox** | "What if the final boss was also your friend?" Undertale. | Meme moments, narrative-combat fusion |
+| **Jonathan Blow** | "Solve by understanding, not by trying everything." Braid, The Witness. | Deep puzzles, conceptual depth |
+| **Mahdi Bahrami** | "3 seconds to understand or it's too complex." Ketchapp/Voodoo. | Hypercasual, viral mechanics, CPI |
 
 ### Prompt Engineers
 
@@ -172,12 +182,25 @@ The skill auto-selects relevant experts and launches them.
 | **Packy McCormick** | "Make it feel like a story, not a report." Not Boring newsletter. | Narrative hooks, long-form engagement |
 | **Pieter Levels** | "Ship fast, measure, iterate." 12 startups in 12 months. | MVP launch, growth hacking, distribution channels |
 
-### System Architects
+### Prediction Markets
 
 | Persona | Style | Best For |
 |---------|-------|----------|
-| **Martin Fowler** | "Good programmers write code that humans understand." | Refactoring, module boundaries |
-| **Leslie Lamport** | "A computer you didn't know existed can break yours." | Distributed systems, consistency |
+| **Shayne Coplan** | "Let people bet on it." Polymarket founder. | Question design, market liquidity |
+| **Robin Hanson** | Invented futarchy. Academic father of prediction markets. | Market theory, manipulation resistance |
+| **Nate Silver** | "The signal is the truth." FiveThirtyEight / Silver Bulletin. | Probability communication, calibration |
+| **Vitalik Buterin** | "Prediction markets are the next frontier." Ethereum creator. | Incentive design, mechanism design |
+| **Philip Tetlock** | "Superforecasters" — who predicts well and why. | Human judgment, forecaster training |
+
+### Quantitative Trading
+
+| Persona | Style | Best For |
+|---------|-------|----------|
+| **Jim Simons** | Renaissance Technologies. 66% annual returns for 30 years. | Signal extraction, feature engineering |
+| **Nassim Taleb** | "What happens on the worst day?" Black Swan, Antifragile. | Tail risk, position sizing, stress testing |
+| **Ed Thorp** | Beat the Dealer → Beat the Market. Kelly criterion pioneer. | Bet sizing, edge quantification |
+| **Cliff Asness** | AQR founder. Value + momentum factors. | Backtest validity, factor analysis |
+| **Marcos López de Prado** | Advances in Financial ML. Anti-overfitting crusader. | ML for finance, temporal leakage, walk-forward validation |
 
 ---
 
