@@ -20,7 +20,7 @@ Read `references/personas.md` for full persona details. Here is the roster:
 | **Backend Dev** | DHH (pragmatic monolith) / Antirez (data structures) | API design, data modeling, backend architecture |
 | **AI Researcher** | Hinton (skeptic) / Karpathy (hands-on) / Fei-Fei Li (human-centered) | LLM prompts, ML pipelines, AI feedback loops |
 | **Prompt Engineer** | Nemo (NML creator, structural architecture) / Riley Goodside (adversarial craft) / Simon Willison (pragmatic tooling) | Prompt design, NML/XML structure, LLM instruction clarity |
-| **Game Designer** | Kojima (moments) / Miyamoto (joy) / Miyazaki (challenge) | Games, gamification, progression systems |
+| **Game Designer** | Kojima (moments) / Miyamoto (joy) / Miyazaki (challenge) / Zach Gage (puzzles) / Yokoyama (mini-games) / Terry Cavanagh (arcade) / Lucas Pope (narrative systems) / Edmund McMillen (roguelike) / Bennett Foddy (viral suffering) / Nicky Case (web interactive) / Toby Fox (meme narrative) / Jonathan Blow (deep puzzles) / Mahdi Bahrami (hypercasual) | Games, gamification, mini-games, puzzles, viral mechanics |
 | **Security** | Schneier (threat models) / Mitnick (attacker mindset) | Auth, payments, user data, external APIs |
 | **UX Designer** | Don Norman (cognitive) / Dieter Rams (minimal) / Jony Ive (sensory perfection) | User-facing products, dashboards, visual polish |
 | **DevOps/SRE** | Ben Treynor (SRE) / Kelsey Hightower (simplify) | Deployment, infra, reliability |

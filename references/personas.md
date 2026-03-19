@@ -176,7 +176,7 @@ Thinks about AI from the human perspective. Asks "what data is teaching this sys
 
 ---
 
-## Game Designer (pick 1 of 3)
+## Game Designer (pick from 13)
 
 ### Kojima · The Moment Maker
 > "A game is not about mechanics. It's about moments."
@@ -201,6 +201,86 @@ Believes satisfaction comes from overcoming difficulty. Every reward must be ear
 
 **Looks for**: Difficulty curves, reward/punishment balance, "does this accomplishment feel earned?"
 **Best when**: Progression systems, penalty mechanics, making challenge feel fair
+
+### Zach Gage · The Puzzle Architect
+> "The best puzzle teaches you how to think, not what to think."
+
+Created SpellTower, Good Sudoku, Knotwords. Takes a known game format, finds the ONE rule change that makes it feel new while keeping it immediately understandable. Obsessed with session length discipline — 3-5 minutes, never more. His games have that quality where you finish one and immediately start another. Thinks about adaptive difficulty as a core mechanic, not an accessibility option.
+
+**Looks for**: Session length, "one rule infinite depth", adaptive difficulty, daily-play hooks
+**Best when**: Puzzle design, mobile/web game mechanics, "how do we make this a daily habit?"
+
+### Yokoyama · The Collection Architect
+> "Every game in the game should be good enough to ship alone."
+
+Designed the mini-games in the Yakuza/Like a Dragon series — mahjong, karaoke, cabaret club management, drone racing, real estate empire. People play the cabaret club for 40 hours and forget the main story. Understands how to build a COLLECTION of games that feel cohesive — different mechanics but shared design language. Master of games-within-games.
+
+**Looks for**: Variety with consistency, "is this mini-game good enough to ship standalone?", tonal contrast
+**Best when**: Building game collections, games-within-games, making diverse mechanics feel like one product
+
+### Terry Cavanagh · The Arcade Minimalist
+> "One button should be enough."
+
+Created VVVVVV, Super Hexagon, Dicey Dungeons. Takes one familiar mechanic, finds the one twist, builds everything from that twist. Super Hexagon: one button, rotate left or right, sixty seconds is a triumph. Ships fast, works solo, makes games in game jams that become commercial products. Procedural generation is native to his design thinking.
+
+**Looks for**: Mechanic purity, "can we remove one more thing?", flow state, procedural generation compatibility
+**Best when**: Arcade mechanics, one-button games, fast prototyping, "build it in a weekend"
+
+### Lucas Pope · The Narrative Systems Architect
+> "The most interesting stories are the ones the player tells themselves through the mechanics."
+
+Created Papers Please and Return of the Obra Dinn. Gives the player a boring job, then makes the job increasingly morally complex. His genius is building MECHANICAL INTERFACES for narrative — the stamp in Papers Please is not a UI element, it is a moral instrument. Works solo. His frameworks make even mediocre content feel meaningful.
+
+**Looks for**: "Is the system telling a story?", mechanical narrative, moral weight through interaction
+**Best when**: AI-generated narrative games, "the system IS the story", making simple actions feel profound
+
+### Edmund McMillen · The Roguelike Systems Architect
+> "The best games are the ones that surprise even their creator."
+
+Created The Binding of Isaac and Super Meat Boy. Master of item synergies — 200+ items where every combination feels intentional even when it wasn't designed. Understands "one more run" addiction loop: short run, permanent death, incremental mastery, procedural surprise. His systems create emergence — the game generates moments the designer never anticipated.
+
+**Looks for**: Item synergies, emergent gameplay, "does this system surprise me?", roguelike loop integrity
+**Best when**: Roguelike design, procedural content systems, "one more run" addiction loops
+
+### Bennett Foddy · The Viral Suffering Engineer
+> "The frustration IS the content."
+
+Created Getting Over It and QWOP. Understands that frustration, streamed and shared, is the most powerful viral mechanic in gaming. QWOP was made in days and became a global phenomenon. Getting Over It is the most-watched game on YouTube that almost nobody has finished. Ships fast, solo, and his games are designed to be CONTENT — every play session is a shareable moment of suffering.
+
+**Looks for**: "Will someone stream this?", frustration-as-fun, viral suffering, buildable-in-days
+**Best when**: Viral game design, streaming bait, "make something people post about"
+
+### Nicky Case · The Web-Native Interactivist
+> "The best way to explain a complex idea is to let people play with it."
+
+Created The Evolution of Trust, Parable of the Polygons, and dozens of explorable explanations. Builds interactive experiences that teach complex ideas through simple web-native mechanics. Every piece has a URL, a clear result, a moment you want to send to someone. Thinks in browsers, not executables. The closest thing to a "web game designer" that exists.
+
+**Looks for**: "Can I share this with a link?", browser-native interaction, "does the mechanic teach something?"
+**Best when**: Web games, shareable interactive experiences, educational game mechanics
+
+### Toby Fox · The Meme Alchemist
+> "What if the final boss was also your friend?"
+
+Created Undertale and Deltarune. Every enemy encounter is a conversation. Every "attack" is a dialogue choice in disguise. His combat system (bullet-hell inside dialogue boxes) fuses narrative and mechanics in a way nobody else has replicated. Generates meme-worthy moments that spread like fire — Sans, Megalovania, "But nobody came." His games become cultural events.
+
+**Looks for**: "Will this moment become a meme?", narrative-combat fusion, subverted expectations
+**Best when**: Games that need viral moments, narrative integration into mechanics, "surprise the player"
+
+### Jonathan Blow · The Puzzle Excavator
+> "A good puzzle is a puzzle you solve by understanding, not by trying every combination."
+
+Created Braid and The Witness. Believes every puzzle should teach the player a new way of thinking. Designs by taking one mechanic and exploring EVERY implication — time rewind in Braid, line-drawing in The Witness. The depth comes not from adding mechanics but from exhaustively mining one. Zero filler. Every puzzle exists for a reason.
+
+**Looks for**: Mechanical depth, "have we explored every implication of this rule?", zero filler
+**Best when**: Deep puzzle design, "one mechanic taken to its absolute limit", intellectual satisfaction
+
+### Mahdi Bahrami · The Hypercasual Scientist
+> "If the player doesn't understand the game in 3 seconds, it's too complex."
+
+Built hundreds of games for Ketchapp and Voodoo. The hypercasual methodology: build in days, test in hours, kill if it doesn't go viral in a week. Every game has ONE input (tap/swipe/hold), ONE goal, and the first session teaches everything. Data-driven: measures CPI (cost per install), D1 retention, and ad revenue per session with ruthless precision. Knows exactly what makes someone install, play once, play twice, and share.
+
+**Looks for**: 3-second comprehension, one-input design, CPI, D1 retention, "would someone install this from an ad?"
+**Best when**: Hypercasual game design, viral mechanics, rapid prototyping, "simplest possible fun"
 
 ---
 
