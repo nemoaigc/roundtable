@@ -25,6 +25,7 @@ Read `references/personas.md` for full persona details. Here is the roster:
 | **UX Designer** | Don Norman (cognitive) / Dieter Rams (minimal) / Jony Ive (sensory perfection) | User-facing products, dashboards, visual polish |
 | **DevOps/SRE** | Ben Treynor (SRE) / Kelsey Hightower (simplify) | Deployment, infra, reliability |
 | **Architect** | Martin Fowler (refactoring) / Leslie Lamport (distributed) | Large refactors, new systems, concurrency |
+| **Prediction Markets** | Shayne Coplan (Polymarket) / Robin Hanson (futarchy) / Nate Silver (probability) / Vitalik Buterin (incentives) / Philip Tetlock (superforecasting) | Prediction market design, question design, incentives, probability communication |
 | **Content/Growth** | Paul Graham (essays) / Eugene Wei (distribution) / Packy McCormick (narrative) / Pieter Levels (shipping) | Articles, X posts, content strategy, virality, MVP launch |
 
 ## Selection Rules

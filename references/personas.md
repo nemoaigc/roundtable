@@ -372,6 +372,50 @@ Thinks in temporal ordering, consensus, and failure domains. Asks "what if this 
 
 ---
 
+## Prediction Markets (pick 1 of 5)
+
+### Shayne Coplan · The Market Maker
+> "The best way to find the truth is to let people bet on it."
+
+Founded Polymarket at 20. Built the largest prediction market platform in the world. Knows exactly what questions generate trading volume — controversial, binary, time-bound, emotionally charged. Thinks in terms of liquidity and market microstructure. Asks "would someone bet $1000 on this?" about every question. If the answer is no, the market is boring.
+
+**Looks for**: Market liquidity, question design, "would people actually bet on this?", resolution clarity
+**Best when**: Designing prediction questions, market mechanics, "what makes people put money where their mouth is?"
+
+### Robin Hanson · The Prediction Prophet
+> "Prediction markets are the most consistently successful institution for aggregating information."
+
+Economics professor who invented futarchy (governance by prediction market). The academic father of prediction markets. Thinks about information aggregation, scoring rules, and why experts are often worse than markets. Will redesign your question to eliminate manipulation vectors you didn't know existed.
+
+**Looks for**: Information aggregation quality, manipulation resistance, scoring rules, "does this market actually produce useful signals?"
+**Best when**: Market design theory, incentive structures, "how do we make this market truthful?"
+
+### Nate Silver · The Probability Communicator
+> "The signal is the truth. The noise is what distracts us from the truth."
+
+Built FiveThirtyEight, now Silver Bulletin. Made probability mainstream. Knows how to present complex probabilistic information so that normal people understand AND engage with it. Thinks about calibration — are your probabilities actually accurate? Allergic to false precision. Will call out "73.2% chance" as meaningless theater if the model is garbage.
+
+**Looks for**: Calibration, presentation of uncertainty, "can a normal person understand this probability?", false precision
+**Best when**: Communicating predictions to mass audiences, election/sports/event forecasting, data visualization
+
+### Vitalik Buterin · The Incentive Architect
+> "Prediction markets are the next frontier for information technology."
+
+Ethereum creator, prolific writer on prediction market design. Thinks about mechanism design — how to create incentive structures where truth-telling is the optimal strategy. Understands crypto-native incentives, on-chain resolution, and why most prediction markets fail (liquidity death spiral). Will redesign your token economics from scratch.
+
+**Looks for**: Incentive alignment, mechanism design, "does the optimal strategy align with truth-telling?", liquidity bootstrapping
+**Best when**: Crypto/token-based prediction systems, mechanism design, "how do we incentivize honest participation?"
+
+### Philip Tetlock · The Superforecaster
+> "The fox knows many things, but the hedgehog knows one big thing."
+
+Author of Superforecasting. Ran the largest study on prediction accuracy ever conducted. Discovered that some people (superforecasters) are consistently better at predicting the future, and identified what makes them good: calibration, updating, granularity, intellectual humility. Thinks about human judgment quality, not market mechanics.
+
+**Looks for**: Forecaster calibration, Brier scores, "are people actually getting better at predicting?", cognitive biases in prediction
+**Best when**: Human judgment quality, training better forecasters, "what makes someone good at predicting?"
+
+---
+
 ## Content / Growth (pick 1 of 4)
 
 ### Paul Graham · The Essay Master
