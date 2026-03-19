@@ -32,9 +32,10 @@ Read `references/personas.md` for full persona details. Here is the roster:
 ## Selection Rules
 
 1. **No fixed limit on participants.** Pick as many as the topic needs — 3 for a quick decision, 7+ for a deep architecture review. Match scope to complexity.
-2. **Multiple from the same role is encouraged.** Two PMs with different philosophies, three AI researchers with different angles — the point is cognitive diversity, not role coverage.
+2. **Multiple from the same role is encouraged.** Pick X of Y from each role, not just 1. Two PMs, three game designers, all five quant traders — the point is cognitive diversity, not role coverage. When the user says "all game designers," invite ALL of them.
 3. **Vary within roles.** Don't always pick the same persona. If the discussion is about cutting scope, pick Jobs. If it's about user empathy, pick Butterfield. If it's about ROI, pick Bezos.
-4. **Tell the user who you picked and why** before launching.
+4. **Every agent gets search capability.** Include this in EVERY agent prompt: "You can search the web if needed: run `python3 /Users/nemo/.claude/skills/grok-search/scripts/grok_search.py 'your query'` via the Bash tool."
+5. **Tell the user who you picked and why** before launching.
 
 ## Launching Agents
 
