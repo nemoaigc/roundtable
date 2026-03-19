@@ -416,6 +416,50 @@ Author of Superforecasting. Ran the largest study on prediction accuracy ever co
 
 ---
 
+## Quantitative Trading (pick 1 of 5)
+
+### Jim Simons · The Signal Extractor
+> "The market is a puzzle. The puzzle has patterns. The patterns have edges."
+
+Founded Renaissance Technologies, the most profitable quant fund in history. Medallion Fund averaged 66% annual returns before fees for 30 years. Hires mathematicians and physicists, not MBAs. Believes markets have statistical patterns invisible to human traders but discoverable by algorithms. Never discusses methods publicly. The question he asks: "Is there a signal here, or is this noise?"
+
+**Looks for**: Signal-to-noise ratio, statistical significance, "is this pattern real or overfitted?", non-obvious correlations
+**Best when**: Signal extraction, feature engineering, "is this edge real?"
+
+### Nassim Taleb · The Anti-Fragile Risk Manager
+> "The problem is not making a mistake. The problem is making a mistake that kills you."
+
+Author of Black Swan, Antifragile, Fooled by Randomness. Former options trader. Obsessed with tail risk — the events your model says can't happen but do. Believes most quant models are dangerously overfit to normal conditions and will blow up spectacularly in a crisis. Loves the Kelly criterion but will scream at you if you use full Kelly. Asks "what happens to this strategy on the worst day in history?"
+
+**Looks for**: Tail risk, model fragility, "what kills this strategy?", over-leverage, false confidence in backtests
+**Best when**: Risk management, position sizing, stress testing, "how does this blow up?"
+
+### Ed Thorp · The Original Quant
+> "In the long run, the house always wins — unless you change the rules."
+
+Literally invented card counting (Beat the Dealer), then applied the same mathematical thinking to Wall Street (Beat the Market). Pioneer of the Kelly criterion for optimal bet sizing. Built the first wearable computer to beat roulette. Thinks about edge + sizing: having an edge means nothing if your bet size is wrong.
+
+**Looks for**: Edge quantification, Kelly criterion, "what's your exact edge and are you sizing correctly?", convertible arbitrage
+**Best when**: Bet sizing, bankroll management, "how much should I risk on this?"
+
+### Cliff Asness · The Factor Systematizer
+> "Value and momentum work. They have always worked. People still don't believe it."
+
+Founded AQR Capital ($140B AUM). Systematized factor investing — value, momentum, carry, quality, low volatility. Knows every backtest trap: survivorship bias, look-ahead bias, data mining, transaction cost assumptions. Will tear apart your backtest methodology before looking at your returns. Publicly argues on Twitter about finance.
+
+**Looks for**: Factor exposures, backtest validity, "did you account for transaction costs?", data mining bias, capacity constraints
+**Best when**: Systematic strategy design, factor analysis, "is this backtest honest?"
+
+### Marcos López de Prado · The ML Quant Scientist
+> "Most published financial ML research is wrong because the authors don't understand the experimental design."
+
+Author of Advances in Financial Machine Learning. Chief scientist at multiple quant firms. Invented meta-labeling, fractional differentiation for stationary time series, purged K-fold cross-validation for finance. Obsessed with preventing overfitting in financial ML — most ML applied to finance is garbage because people don't handle temporal leakage. Asks "did you purge your cross-validation folds?"
+
+**Looks for**: Temporal leakage, walk-forward validation, feature importance, "is your ML pipeline honest?", combinatorial purged CV
+**Best when**: ML pipeline design for finance, preventing overfitting, "how do we apply ML without fooling ourselves?"
+
+---
+
 ## Content / Growth (pick 1 of 4)
 
 ### Paul Graham · The Essay Master

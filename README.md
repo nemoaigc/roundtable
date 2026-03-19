@@ -6,7 +6,7 @@
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-8B5CF6?style=for-the-badge)](https://claude.com/claude-code)
 [![MIT License](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](LICENSE)
-[![Personas](https://img.shields.io/badge/49_Experts-14_Roles-ff6b6b?style=for-the-badge)](#persona-pool)
+[![Personas](https://img.shields.io/badge/54_Experts-15_Roles-ff6b6b?style=for-the-badge)](#persona-pool)
 
 </div>
 

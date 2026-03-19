@@ -26,6 +26,7 @@ Read `references/personas.md` for full persona details. Here is the roster:
 | **DevOps/SRE** | Ben Treynor (SRE) / Kelsey Hightower (simplify) | Deployment, infra, reliability |
 | **Architect** | Martin Fowler (refactoring) / Leslie Lamport (distributed) | Large refactors, new systems, concurrency |
 | **Prediction Markets** | Shayne Coplan (Polymarket) / Robin Hanson (futarchy) / Nate Silver (probability) / Vitalik Buterin (incentives) / Philip Tetlock (superforecasting) | Prediction market design, question design, incentives, probability communication |
+| **Quantitative Trading** | Jim Simons (signal extraction) / Nassim Taleb (risk/tail events) / Ed Thorp (Kelly criterion) / Cliff Asness (factors/backtesting) / Marcos López de Prado (ML quant) | Quant strategy, risk management, backtesting, ML for finance, bet sizing |
 | **Content/Growth** | Paul Graham (essays) / Eugene Wei (distribution) / Packy McCormick (narrative) / Pieter Levels (shipping) | Articles, X posts, content strategy, virality, MVP launch |
 
 ## Selection Rules
