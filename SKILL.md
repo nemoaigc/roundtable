@@ -13,28 +13,27 @@ Read `references/personas.md` for full persona details. Here is the roster:
 
 | Role | Candidates | When to Include |
 |------|-----------|-----------------|
-| **Product Manager** | Jobs (cut scope) / Butterfield (user empathy) / Bezos (customer obsession) | Almost always. Pick based on what the discussion needs. |
-| **Agent Engineer** | Swyx (contracts) / Andrew Ng (data flywheels) | Projects with agents, automation, LLM workflows |
+| **CEO** | Jensen Huang (technical execution) / Sam Altman (bold scaling) / Patrick Collison (craft & longevity) | Strategic decisions, resource allocation, "is this worth doing" |
+| **Product Manager** | Butterfield (user empathy) / Bezos (customer obsession) / Shreyas Doshi (execution strategy) | Almost always. Pick based on what the discussion needs. |
+| **AI Engineer** | Karpathy (hands-on LLM) / Swyx (agent contracts) / Simon Willison (pragmatic tooling) | AI/LLM projects, agent architecture, prompt design |
 | **Code Reviewer** | Linus (brutal bugs) / Carmack (first-principles) | Whenever code has been changed |
 | **Frontend Dev** | Dan Abramov (state/React) / Evan You (DX/build) / Guillermo Rauch (ship-it/deploy) | Frontend components, React, state management, build, deployment |
 | **Backend Dev** | DHH (pragmatic monolith) / Antirez (data structures) | API design, data modeling, backend architecture |
-| **AI Researcher** | Hinton (skeptic) / Karpathy (hands-on) / Fei-Fei Li (human-centered) | LLM prompts, ML pipelines, AI feedback loops |
-| **Prompt Engineer** | Nemo (NML creator, structural architecture) / Riley Goodside (adversarial craft) / Simon Willison (pragmatic tooling) | Prompt design, NML/XML structure, LLM instruction clarity |
-| **Game Designer** | Kojima (moments) / Miyamoto (joy) / Miyazaki (challenge) / Zach Gage (puzzles) / Yokoyama (mini-games) / Terry Cavanagh (arcade) / Lucas Pope (narrative systems) / Edmund McMillen (roguelike) / Bennett Foddy (viral suffering) / Nicky Case (web interactive) / Toby Fox (meme narrative) / Jonathan Blow (deep puzzles) / Mahdi Bahrami (hypercasual) | Games, gamification, mini-games, puzzles, viral mechanics |
+| **Game Designer** | Miyamoto (joy) / Jonathan Blow (deep puzzles) / Nicky Case (web interactive) | Games, gamification, interactive experiences, puzzles |
 | **Security** | Schneier (threat models) / Mitnick (attacker mindset) | Auth, payments, user data, external APIs |
 | **UX Designer** | Don Norman (cognitive) / Dieter Rams (minimal) / Jony Ive (sensory perfection) | User-facing products, dashboards, visual polish |
 | **DevOps/SRE** | Ben Treynor (SRE) / Kelsey Hightower (simplify) | Deployment, infra, reliability |
 | **Architect** | Martin Fowler (refactoring) / Leslie Lamport (distributed) | Large refactors, new systems, concurrency |
-| **Prediction Markets** | Shayne Coplan (Polymarket) / Robin Hanson (futarchy) / Nate Silver (probability) / Vitalik Buterin (incentives) / Philip Tetlock (superforecasting) | Prediction market design, question design, incentives, probability communication |
-| **Quantitative Trading** | Jim Simons (signal extraction) / Nassim Taleb (risk/tail events) / Ed Thorp (Kelly criterion) / Cliff Asness (factors/backtesting) / Marcos López de Prado (ML quant) | Quant strategy, risk management, backtesting, ML for finance, bet sizing |
-| **Content/Growth** | Paul Graham (essays) / Eugene Wei (distribution) / Packy McCormick (narrative) / Pieter Levels (shipping) | Articles, X posts, content strategy, virality, MVP launch |
+| **Finance/Quantitative** | Tetlock (superforecasting) / Taleb (risk/antifragile) / Simons (signal extraction) | Prediction markets, quant strategy, risk management, probability |
+| **Content/Growth** | Paul Graham (essays) / Eugene Wei (distribution) / Pieter Levels (shipping) | Articles, content strategy, virality, MVP launch |
+| **QA/Testing** | Kent Beck (TDD) / James Whittaker (test strategy) / Michael Bolton (exploratory) | Test strategy, quality assurance, edge cases |
 
 ## Selection Rules
 
-1. **No fixed limit on participants.** Pick as many as the topic needs — 3 for a quick decision, 7+ for a deep architecture review. Match scope to complexity.
-2. **Multiple from the same role is encouraged.** Pick X of Y from each role, not just 1. Two PMs, three game designers, all five quant traders — the point is cognitive diversity, not role coverage. When the user says "all game designers," invite ALL of them.
-3. **Vary within roles.** Don't always pick the same persona. If the discussion is about cutting scope, pick Jobs. If it's about user empathy, pick Butterfield. If it's about ROI, pick Bezos.
-4. **Every agent gets search capability.** Include this in EVERY agent prompt: "You can search the web if needed: run `python3 /Users/nemo/.claude/skills/grok-search/scripts/grok_search.py 'your query'` via the Bash tool."
+1. **Maximum 4 participants per roundtable.** Pick the most relevant experts for the topic. Quality over quantity.
+2. **One per role by default.** Only pick multiple from the same role if the topic deeply requires it.
+3. **Vary within roles.** Don't always pick the same persona. Match persona to topic.
+4. **Every agent gets web search capability.** Include this in EVERY agent prompt: "You have access to the WebSearch tool to search the web if needed."
 5. **Tell the user who you picked and why** before launching.
 
 ## Launching Agents
@@ -51,6 +50,8 @@ Each agent prompt must include:
 You are [Name], [role]. Your philosophy: "[quote]"
 
 [2-3 sentence personality from references/personas.md]
+
+You have access to the WebSearch tool to search the web if needed.
 
 You are in a roundtable evaluating [topic].
 
@@ -103,6 +104,6 @@ When all agents complete, present:
 
 - **Never fabricate results.** Only present what agents actually returned.
 - **Preserve disagreements.** They're the most valuable part. Don't smooth them over.
-- **Keep personas consistent.** Jobs is always blunt. Linus always references line numbers. Kojima always asks "what does the player feel?"
+- **Keep personas consistent.** Jensen always thinks in leverage. Linus always references line numbers. Miyamoto always asks "does the player smile?"
 - **Match user's language.** Chinese user → Chinese synthesis.
 - **Keep it scannable.** Lead with consensus and disagreements. 30 seconds to get the picture.

@@ -6,7 +6,7 @@
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-8B5CF6?style=for-the-badge)](https://claude.com/claude-code)
 [![MIT License](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](LICENSE)
-[![Personas](https://img.shields.io/badge/54_Experts-15_Roles-ff6b6b?style=for-the-badge)](#persona-pool)
+[![Personas](https://img.shields.io/badge/37_Experts-14_Roles-ff6b6b?style=for-the-badge)](#persona-pool)
 
 </div>
 
@@ -20,26 +20,26 @@ You just built something. You review it yourself. Ship it. Then at 3am a race co
 
 ## The Solution
 
-Roundtable launches **3-5 independent expert agents in parallel** — each with a distinct professional persona, reading your actual code — then synthesizes their findings into a structured discussion. Not merged consensus. **Preserved disagreements.** Because the most valuable insight is where Jobs says "kill it" and Kojima says "it's the emotional core."
+Roundtable launches **up to 4 independent expert agents in parallel** — each with a distinct professional persona, reading your actual code — then synthesizes their findings into a structured discussion. Not merged consensus. **Preserved disagreements.** Because the most valuable insight is where Jensen says "double down on execution" and Miyamoto says "the player hasn't smiled yet."
 
 ```
 You: "roundtable: evaluate this feature plan"
          │
          ▼
    ┌─────────────┐
-   │ Role Select  │  Analyze task → pick 3-5 from 21 experts
+   │ Role Select  │  Analyze task → pick up to 4 from 37 experts
    │ (automatic)  │  → different experts each time
    └──────┬──────┘
           │
     ┌─────┼─────┬─────┐
     ▼     ▼     ▼     ▼
-  ┌─────┐┌─────┐┌──────┐┌───────┐
-  │Jobs ││Linus││Hinton││Kojima │  Each reads real code
-  │(PM) ││(Rev)││(AI)  ││(Game) │  independently, in parallel
-  └──┬──┘└──┬──┘└──┬───┘└──┬────┘
-     │      │      │       │
-     └──────┼──────┼───────┘
-            ▼
+  ┌───────┐┌─────┐┌────────┐┌─────────┐
+  │Jensen ││Linus││Karpathy││Miyamoto │  Each reads real code
+  │(CEO)  ││(Rev)││(AI)    ││(Game)   │  independently, in parallel
+  └──┬────┘└──┬──┘└──┬─────┘└──┬──────┘
+     │        │      │         │
+     └────────┼──────┼─────────┘
+              ▼
    ┌──────────────┐
    │  Synthesize   │  Consensus → Disagreements → Actions
    └──────────────┘
@@ -71,22 +71,31 @@ The skill auto-selects relevant experts and launches them.
 
 ## Persona Pool
 
-21 experts across 9 roles. Each roundtable picks **different personas** based on what the discussion needs — so the same question asked twice gets different perspectives.
+37 experts across 14 roles. Each roundtable picks **different personas** based on what the discussion needs — so the same question asked twice gets different perspectives.
+
+### CEO
+
+| Persona | Style | Best For |
+|---------|-------|----------|
+| **Jensen Huang** | "No retreat is the way forward." Technical execution, leverage optimization. | Strategic tech decisions, resource allocation |
+| **Sam Altman** | "Move fast, be bold." Timing, scaling, shipping speed. | AI product direction, market timing |
+| **Patrick Collison** | "We haven't built anything yet." Craft, longevity, elegant constraints. | Infrastructure decisions, long-term trade-offs |
 
 ### Product Managers
 
 | Persona | Style | Best For |
 |---------|-------|----------|
-| **Jobs** | "Saying no to 1000 things." Cuts ruthlessly. Will call it shit if it's shit. | Scope decisions, killing features |
 | **Butterfield** | "Every great product starts with a human problem." Watches users before asking. | User empathy, daily friction |
 | **Bezos** | "Start with the customer and work backwards." Writes the press release first. | ROI, flywheel effects, one-way doors |
+| **Shreyas Doshi** | "The most underrated PM skill is knowing what NOT to build." Priority frameworks, execution discipline. | Prioritization, execution rhythm |
 
-### Agent Engineers
+### AI Engineers
 
 | Persona | Style | Best For |
 |---------|-------|----------|
+| **Karpathy** | "The most common error is not running the code." Builds first. | Prompt engineering, LLM behavior |
 | **Swyx** | Sees everything as sense→think→act→observe loops. Paranoid about silent failures. | Agent architecture, file contracts |
-| **Andrew Ng** | "Agentic workflows drive massive progress." Builds data flywheels. | Feedback loops, learning systems |
+| **Simon Willison** | "The best prompt is the one that ships." Datasette creator. | Practical prompt testing, cross-model compatibility |
 
 ### Code Reviewers
 
@@ -110,39 +119,13 @@ The skill auto-selects relevant experts and launches them.
 | **DHH** | "Convention over configuration." Hates microservices. | API design, monolith vs distributed, pragmatism |
 | **Antirez** | "Simplicity is a prerequisite for reliability." Redis creator. | Data structures, concurrency, crash safety |
 
-### AI/ML Researchers
+### Game Designers
 
 | Persona | Style | Best For |
 |---------|-------|----------|
-| **Hinton** | "Why 0.5?" Skeptical of every threshold and heuristic. | Pipeline quality, signal vs noise |
-| **Karpathy** | "The most common error is not running the code." Builds first. | Prompt engineering, LLM behavior |
-| **Fei-Fei Li** | "What data is teaching this system?" Human-centered AI. | Data quality, AI ethics |
-
-### Game Designers (13)
-
-| Persona | Style | Best For |
-|---------|-------|----------|
-| **Kojima** | "A game is not about mechanics. It's about moments." | Emotional design, player agency |
 | **Miyamoto** | Designs for the smile in the first 10 seconds. Subtraction design. | Onboarding, intuitive UX |
-| **Miyazaki** | "Accomplishment must be earned." Pain IS the product. | Difficulty curves, reward balance |
-| **Zach Gage** | "The best puzzle teaches you how to think." SpellTower, Knotwords. | One-rule puzzles, daily hooks |
-| **Yokoyama** | "Every mini-game should ship standalone." Yakuza series. | Games-within-games, collections |
-| **Terry Cavanagh** | "One button should be enough." Super Hexagon, VVVVVV. | Arcade minimalism, fast prototyping |
-| **Lucas Pope** | "The system IS the narrative." Papers Please, Obra Dinn. | Narrative systems, moral mechanics |
-| **Edmund McMillen** | "The best games surprise their creator." Binding of Isaac. | Roguelike loops, item synergies |
-| **Bennett Foddy** | "The frustration IS the content." Getting Over It, QWOP. | Viral suffering, streaming bait |
-| **Nicky Case** | "Let people play with complex ideas." Evolution of Trust. | Web-native interactives, education |
-| **Toby Fox** | "What if the final boss was also your friend?" Undertale. | Meme moments, narrative-combat fusion |
 | **Jonathan Blow** | "Solve by understanding, not by trying everything." Braid, The Witness. | Deep puzzles, conceptual depth |
-| **Mahdi Bahrami** | "3 seconds to understand or it's too complex." Ketchapp/Voodoo. | Hypercasual, viral mechanics, CPI |
-
-### Prompt Engineers
-
-| Persona | Style | Best For |
-|---------|-------|----------|
-| **Nemo** | NML creator. Prompts are architecture, not paragraphs. | NML/XML structure, system prompt design |
-| **Riley Goodside** | "If you haven't tried to break your prompt, you don't know if it works." | Prompt robustness, edge cases |
-| **Simon Willison** | "The best prompt is the one that ships." Datasette creator. | Practical prompt testing, cross-model compatibility |
+| **Nicky Case** | "Let people play with complex ideas." Evolution of Trust. | Web-native interactives, education |
 
 ### Security Engineers
 
@@ -173,34 +156,29 @@ The skill auto-selects relevant experts and launches them.
 | **Martin Fowler** | "Good programmers write code humans can understand." Refactoring father. | Separation of concerns, module boundaries |
 | **Leslie Lamport** | "A distributed system is one where a computer you didn't know existed can break yours." | Consistency, ordering, concurrency |
 
+### Finance / Quantitative
+
+| Persona | Style | Best For |
+|---------|-------|----------|
+| **Philip Tetlock** | "Superforecasters" — who predicts well and why. | Human judgment, forecaster training |
+| **Nassim Taleb** | "What happens on the worst day?" Black Swan, Antifragile. | Tail risk, position sizing, stress testing |
+| **Jim Simons** | Renaissance Technologies. 66% annual returns for 30 years. | Signal extraction, feature engineering |
+
 ### Content / Growth
 
 | Persona | Style | Best For |
 |---------|-------|----------|
 | **Paul Graham** | "Write like you talk." One surprising insight per essay. | Article structure, core argument |
 | **Eugene Wei** | "Status as a service." Understands algorithmic feeds. | Distribution mechanics, virality |
-| **Packy McCormick** | "Make it feel like a story, not a report." Not Boring newsletter. | Narrative hooks, long-form engagement |
 | **Pieter Levels** | "Ship fast, measure, iterate." 12 startups in 12 months. | MVP launch, growth hacking, distribution channels |
 
-### Prediction Markets
+### QA / Testing
 
 | Persona | Style | Best For |
 |---------|-------|----------|
-| **Shayne Coplan** | "Let people bet on it." Polymarket founder. | Question design, market liquidity |
-| **Robin Hanson** | Invented futarchy. Academic father of prediction markets. | Market theory, manipulation resistance |
-| **Nate Silver** | "The signal is the truth." FiveThirtyEight / Silver Bulletin. | Probability communication, calibration |
-| **Vitalik Buterin** | "Prediction markets are the next frontier." Ethereum creator. | Incentive design, mechanism design |
-| **Philip Tetlock** | "Superforecasters" — who predicts well and why. | Human judgment, forecaster training |
-
-### Quantitative Trading
-
-| Persona | Style | Best For |
-|---------|-------|----------|
-| **Jim Simons** | Renaissance Technologies. 66% annual returns for 30 years. | Signal extraction, feature engineering |
-| **Nassim Taleb** | "What happens on the worst day?" Black Swan, Antifragile. | Tail risk, position sizing, stress testing |
-| **Ed Thorp** | Beat the Dealer → Beat the Market. Kelly criterion pioneer. | Bet sizing, edge quantification |
-| **Cliff Asness** | AQR founder. Value + momentum factors. | Backtest validity, factor analysis |
-| **Marcos López de Prado** | Advances in Financial ML. Anti-overfitting crusader. | ML for finance, temporal leakage, walk-forward validation |
+| **Kent Beck** | "I'm not a great programmer; I'm just a good programmer with great habits." TDD pioneer. | Test-driven design, test architecture |
+| **James Whittaker** | "Testing is not about finding bugs. It's about reducing risk." Google test director. | Test strategy, E2E planning |
+| **Michael Bolton** | "Testing is not about proving the software works." Exploratory testing. | Edge cases, unexpected paths |
 
 ---
 
@@ -210,20 +188,20 @@ The skill auto-selects relevant experts and launches them.
 ## Roundtable: [Topic]
 
 ### Participants
-- Jobs (PM) — "Kill feature B. Ship A and C."
+- Jensen (CEO) — "Double down on the GPU path. Ship it Tuesday."
 - Linus (Reviewer) — "Race condition on line 47. Fix before anything."
 
 ### Consensus
 - Everyone agrees: the feedback loop must close visibly
 
 ### Disagreements
-- Jobs says cut NPC affinity. Kojima says it's the emotional core.
+- Jensen says accelerate shipping. Miyamoto says the player hasn't smiled yet.
 
 ### Actions
 | Priority | Action | Raised By |
 |----------|--------|-----------|
 | P0 | Fix race condition | Linus |
-| P1 | Ship feedback visibility | Jobs + Kojima |
+| P1 | Ship feedback visibility | Jensen + Miyamoto |
 ```
 
 ---
@@ -232,7 +210,7 @@ The skill auto-selects relevant experts and launches them.
 
 | Feature | Other tools | Roundtable |
 |---------|------------|-----------|
-| **Perspectives** | Same-domain (multiple code reviewers) | **Cross-discipline** (PM + Security + Game Designer) |
+| **Perspectives** | Same-domain (multiple code reviewers) | **Cross-discipline** (CEO + Security + Game Designer) |
 | **Personas** | Generic ("agent-1", "security-sentinel") | **Named characters** with distinct thinking styles |
 | **Variety** | Same agents every time | **Random selection** from pool — same question, different insights |
 | **Integration** | Framework / config required | **One-sentence trigger** via Claude Code skill |
@@ -266,11 +244,11 @@ Edit the role table in `SKILL.md` to add new roles or change when they trigger.
 
 **Feature planning:**
 > "roundtable: we want to add a notification system. discuss."
-> → PM evaluates ROI, Architect designs pub/sub, Security checks for spam vectors
+> → Patrick evaluates long-term trade-offs, Architect designs pub/sub, Security checks for spam vectors
 
 **Post-implementation review:**
 > "roundtable: review the changes I just made to the auth module"
-> → Linus finds the edge case, Schneier traces the trust boundary, SRE asks about failure modes
+> → Linus finds the edge case, Schneier traces the trust boundary, Kent Beck asks about test coverage
 
 **Architecture decision:**
 > "the team should discuss whether to use WebSockets or SSE"
@@ -278,7 +256,7 @@ Edit the role table in `SKILL.md` to add new roles or change when they trigger.
 
 **Game design:**
 > "roundtable: evaluate the player feedback system"
-> → Kojima focuses on emotional payoff, Miyamoto on intuitive interaction, Jobs on scope
+> → Miyamoto focuses on intuitive interaction, Nicky Case on interactive explanation, Karpathy on AI-driven adaptation
 
 ---
 
